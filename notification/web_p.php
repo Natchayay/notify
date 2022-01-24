@@ -112,7 +112,7 @@
                   $sql_get1 = mysqli_query($con,"SELECT * FROM message WHERE status=0");
                   if(mysqli_num_rows($sql_get1)>0){
                     while($result =  mysqli_fetch_assoc($sql_get1)){
-                      echo '<li><a class="dropdown-item" href="read_msg.php?id="">'.$result['message'].'</a></li>';
+                      echo '<li><a class="dropdown-item" href="read_msg.php?id='.$result['id'].'">'.$result['message'].'</a></li>';
                       echo '<div class="dropdow-divider"></div>';
                     }
                   }else{
