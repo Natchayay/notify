@@ -396,9 +396,6 @@
                   </div>
                 </td>
                 <td class="align-middle w3-margin-bottom setnumber" type="text" id="setnumber1">
-                5
-                <br/>
-                5
                 </td>
               </tr>
               <tr>
@@ -504,9 +501,10 @@
                     ><b>ยืนยันการรับประทานยา</b></label
                   >
                   <br/>
-                  <hr/>
+                  <p class="card-text">*จดบันทึกทุกครั้งที่ลืมรับประทานยา</p> 
                     <p id="quantity1-error"></p>
-                    <divs class="row row-cols-lg-auto input-from">
+                    <divs class="row row-cols-lg-auto ">
+                    <label class="text">ชื่อยา :</label>
                       <input
                         class="w3-input w3-border w3-margin-bottom sizetext"
                         type="text"
@@ -515,9 +513,9 @@
                         id="name"
                         required
                       />
-                      <label class="text">จำนวน</label>
+                      <label class="text">จำนวน :</label>
                       <input
-                        class="w3-input w3-border w3-margin-bottom"
+                        class="w3-input w3-border w3-margin-bottom "
                         type="number"
                         id="quantity1"
                         name="quantity1"
@@ -526,192 +524,15 @@
                         required
                       />
                       <label class="text">เม็ด/ครั้ง</label>
-                      <label class="text">หมายเหตุ :</label>
-                      <input
-                        class="w3-input w3-margin-bottom sizetextResult"
-                        type="text" id="Result" name="Result1"
-                      />
-                    </div>
-                    <p id="quantity2-error"></p>
-                    <div class="row row-cols-lg-auto input-from">
-                      <input
-                        class="w3-input w3-border w3-margin-bottom sizetext"
-                        type="text"
-                        placeholder="รายการยา"
-                        name="name"
-                        id="name"
-                        required
-                      />
-                      <label class="text">จำนวน</label>
-                      <input
-                        class="w3-input w3-border w3-margin-bottom"
-                        type="number"
-                        id="quantity2"
-                        name="quantity2"
-                        min="0"
-                        max="5"
-                        required
-                      />
-                      <label class="text">เม็ด/ครั้ง</label>
-                      <label class="text">หมายเหตุ :</label>
-                      <input
-                        class="w3-input w3-margin-bottom sizetextResult"
-                        type="text" id="Result2" name="Result2"
-                      />
-                    </div>
-                    <hr/>
-                    <p id="quantity3-error"></p>
-                    <div class="row row-cols-lg-auto input-from">
-                      <input
-                        class="w3-input w3-border w3-margin-bottom sizetext"
-                        type="text"
-                        placeholder="รายการยา"
-                        id="name"
-                        name="name"
-                        required
-                      />
-                      <label class="text">จำนวน</label>
-                      <input
-                        class="w3-input w3-border w3-margin-bottom"
-                        type="number"
-                        id="quantity3"
-                        name="quantity3"
-                        min="0"
-                        max="5"
-                        required
-                      />
-                      <label class="text">เม็ด/ครั้ง</label>
-                      <label class="text">หมายเหตุ :</label>
-                      <input
-                        class="w3-input w3-margin-bottom sizetextResult"
-                        type="text"
-                      />
-                    </div>
-                    <p id="quantity4-error"></p>
-                    <div class="row row-cols-lg-auto input-from">
-                      <input
-                        class="w3-input w3-border w3-margin-bottom sizetext"
-                        type="text"
-                        placeholder="รายการยา"
-                        id="name"
-                        name="name"
-                        required
-                      />
-                      <label class="text">จำนวน</label>
-                      <input
-                        class="w3-input w3-border w3-margin-bottom"
-                        type="number"
-                        id="quantity4"
-                        name="quantity4"
-                        min="0"
-                        max="5"
-                        required
-                      />
-                      <label class="text">เม็ด/ครั้ง</label>
-                      <label class="text">หมายเหตุ :</label>
-                      <input
-                        class="w3-input w3-margin-bottom sizetextResult"
-                        type="text"
-                      />
-                    </div>
-                    <hr/>
-                    <p id="quantity5-error"></p>
-                    <div class="row row-cols-lg-auto input-from">
-                      <input
-                        class="w3-input w3-border w3-margin-bottom sizetext"
-                        type="text"
-                        placeholder="รายการยา"
-                        id="name"
-                        name="name"
-                        required
-                      />
-                      <label class="text">จำนวน</label>
-                      <input
-                        class="w3-input w3-border w3-margin-bottom"
-                        type="number"
-                        id="quantity5"
-                        name="quantity5"
-                        min="0"
-                        max="5"
-                        required
-                      />
-                      <label class="text">เม็ด/ครั้ง</label>
-                      <label class="text">หมายเหตุ :</label>
-                      <input
-                        class="w3-input w3-margin-bottom sizetextResult"
-                        type="text"
-                      />
-                    </div>
-                    <p id="quantity6-error"></p>
-                    <div class="row row-cols-lg-auto input-from">
-                      <input
-                        class="w3-input w3-border w3-margin-bottom sizetext"
-                        type="text"
-                        placeholder="รายการยา"
-                        id="name"
-                        name="name"
-                        required
-                      />
-                      <label class="text">จำนวน</label>
-                      <input
-                        class="w3-input w3-border w3-margin-bottom"
-                        type="number"
-                        id="quantity6"
-                        name="quantity6"
-                        min="0"
-                        max="5"
-                        required
-                      />
-                      <label class="text">เม็ด/ครั้ง</label>
-                      <label class="text">หมายเหตุ :</label>
-                      <input
-                        class="w3-input w3-margin-bottom sizetextResult"
-                        type="text"
-                      />
-                    </div>
-                    <hr/>
-                    <p id="quantity7-error"></p>
-                    <div class="row row-cols-lg-auto input-from">
-                      <input
-                        class="w3-input w3-border w3-margin-bottom sizetext"
-                        type="text"
-                        placeholder="รายการยา"
-                        id="name"
-                        name="name"
-                        required
-                      />
-                      <label class="text">จำนวน</label>
-                      <input
-                        class="w3-input w3-border w3-margin-bottom"
-                        type="number"
-                        id="quantity7"
-                        name="quantity7"
-                        min="0"
-                        max="5"
-                        required
-                      />
-                      <label class="text">เม็ด/ครั้ง</label>
-                      <label class="text">หมายเหตุ :</label>
-                      <input
-                        class="w3-input w3-margin-bottom sizetextResult"
-                        type="text"
-                      />
+                      <br/>
+                      <div class="form-check">
+                        <input type="radio" name="confirm">&nbsp;&nbsp;ยืนยันการรับประทานยา</input>
+                      </div>
                     </div>
                     <label class="w3-margin-bottom"
-                    ><b>ถ่ายรูปยา (ให้เห็นจำนวนยาที่อยู่ภายในซอง)</b></label
-                    >
-                    <div class="from-group">
-                      <input
-                      type="file"
-                      class="from-control-file"
-                      id="exampleFromControlFile1"
-                      />
-                    </div>
-                    <label class="w3-margin-bottom"
-                    ><b>กรณีลืมรับประทานยา</b></label
-                    >
-                    <p class="card-text">*จดบันทึกทุกครั้งที่ลืมรับประทานยา</p> 
-                    <div class="form-check">
+                      ><b>กรณีลืมรับประทานยา</b></label
+                      >
+                      <div class="form-check">
                       <label class="w3-margin-bottom">
                       ระยะเวลาที่ลืมรับประทานยา :
                       </label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -725,9 +546,22 @@
                       </label>
                       <br/>
                       <label class="w3-margin-bottom">
-                      จำนวนความถี่ :
+                      จำนวนครั้งความถี่ :
                       </label>
                       <input type="text" class="sizetextHz"></input>
+                      <label class="text">ครั้ง/วัน</label>
+                    </div>
+                    <hr/>
+                    
+                    <label class="w3-margin-bottom"
+                    ><b>ถ่ายรูปยา (ให้เห็นจำนวนยาที่อยู่ภายในซอง)</b></label
+                    >
+                    <div class="from-group">
+                      <input
+                      type="file"
+                      class="from-control-file"
+                      id="exampleFromControlFile1"
+                      />
                     </div>
                     <label class="w3-margin-bottom"
                     ><b>บันทึกประจำวัน</b></label
